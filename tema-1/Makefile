@@ -6,6 +6,8 @@ INC_DIR := include
 SRC_DIR := src
 OBJ_DIR := obj
 
+$(shell mkdir -p $(INC_DIR) $(SRC_DIR) $(OBJ_DIR))
+
 SRC := $(wildcard $(SRC_DIR)/*.c) $(BIN).c
 OBJ := $(subst $(BIN).o,$(OBJ_DIR)/$(BIN).o,$(subst $(SRC_DIR)/,$(OBJ_DIR)/,$(SRC:%.c=%.o)))
 DEP := $(OBJ:%.o=%.d)
