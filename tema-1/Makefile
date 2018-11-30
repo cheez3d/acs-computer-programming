@@ -1,5 +1,5 @@
 CC := gcc
-CFLAGS := -Wall -DTASK1 -DTASK2 -DTASK3 -DTASK4
+CFLAGS := -Wall -std=gnu99 -DTASK1 -DTASK2 -DTASK3 -DTASK4
 
 BIN := telefon
 INC_DIR := include
