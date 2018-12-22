@@ -1,0 +1,20 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "compilerPath": "/usr/bin/gcc",
+            "includePath": [
+                "${workspaceFolder}/include",
+                "/usr/include/x86_64-linux-gnu/7/include",
+                "/usr/local/include",
+                "/usr/include/x86_64-linux-gnu/7/include-fixed",
+                "/usr/include/x86_64-linux-gnu",
+                "/usr/include"
+            ],
+            "cStandard": "gnu99",
+            "defines": ["TASK1", "TASK2", "TASK3", "TASK4"],
+            "intelliSenseMode": "gcc-x64"
+        }
+    ],
+    "version": 4
+}
