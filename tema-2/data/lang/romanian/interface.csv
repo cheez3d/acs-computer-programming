@@ -1,0 +1,13 @@
+category,key,text
+
+menu,new_game,New Game/Resume Game
+menu,new_game_desc,începe un joc nou sau revino la cel deja început
+menu,resume_game,Resume Game
+menu,resume_game_desc,reîntoarcete la joc
+menu,language,Language
+menu,language_desc,alege limba de afișare
+menu,quit,Quit
+menu,quit_desc,închide aplicația
+
+language,english,Engleză
+language,romanian,Română

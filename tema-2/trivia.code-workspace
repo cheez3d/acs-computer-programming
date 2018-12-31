@@ -1,0 +1,21 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"files.associations": {
+			"curses.h": "c",
+			"cursesw.h": "c",
+			"etip.h": "c",
+			"iostream": "c",
+			"stdlib.h": "c",
+			"string.h": "c",
+			"stdbool.h": "c",
+			"ctype.h": "c",
+			"err.h": "c",
+			"unistd.h": "c"
+		}
+	}
+}

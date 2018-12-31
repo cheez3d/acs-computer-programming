@@ -1,0 +1,9 @@
+category,key,text
+
+menu,newGame,New Game
+menu,resumeGame,Resume Game
+menu,language,Language
+menu,quit,Quit
+
+language,english,English
+language,romanian,Romanian
