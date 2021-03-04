@@ -1,5 +1,6 @@
-# binary
-telefon
+/.debug
+/trivia
 
-# directories
-obj/
+/.vscode/settings.json
+
+/obj/

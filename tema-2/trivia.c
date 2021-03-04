@@ -59,7 +59,7 @@ int main(int argc, char **argv) {
     gameStart(game); // loop-ul jocului
 
 
-    gameDestroy(game);    
+    gameDestroy(game);
 
     for (size_t i = 0; i < langCount; ++i) langDestroy(langs[i]);
     free(langs);

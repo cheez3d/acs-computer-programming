@@ -7,6 +7,22 @@
 #include "dict.h"
 #include "helpers.h"
 
+// POSSIBLE REFACTORINGS
+// - remove casts from malloc, calloc calls
+// - change returns from numbers to EXIT defines
+// - move constants first in compares (e.g. NULL == ...)
+// - change count variable types to size_t
+// - change strcspn \n comment to the one from tema-2
+// - remove unnecessary *const-s
+// - replace strtok while loops with for loops (initial statement with str argument, increment with NULL)
+// - change makefile -g flag valgrind
+// - change all allocs sizeof from type to *variable
+// - nodejs also get compiler path from json and others
+// - change #include directives "" to have main one at the top and rest underneath with one empty line in between
+// - change header include order
+// - add coments for indication to #endif-s
+// - change asterisk location in type casts and function return types like this: int * test();
+
 #ifdef TASK1
 void read1(char message[MESSAGE_MAX_SIZE+1]) {
     fgets(message, MESSAGE_MAX_SIZE+1, stdin);

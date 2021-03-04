@@ -1,5 +1,7 @@
-# binary
-telefon
+/.debug
+/telefon
+/vmchecker.zip
 
-# directories
-obj/
+/.vscode/settings.json
+
+/obj/
