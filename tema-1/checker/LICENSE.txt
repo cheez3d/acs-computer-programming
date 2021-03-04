@@ -1,0 +1,2 @@
+I am not the author of this checker and everything herein is not subject to
+the license of this project.
